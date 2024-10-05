@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+}
+.header {
+    padding: 0 85px; 
+}
+.nav-item{
+    font-weight: bold;
+    font-size: large;
+}
+.d-flex{
+    border-radius: 5px;
+    border: solid 1px #222;
+    background-color: #222;
+    color: #fff;
+    padding: 5px 20px ;
+}
+/*########################################################################################*/
+.home{
+    margin: 100px;
+}
+.home h1{
+    font-size:100px ;
+    margin-left: -150px;
+}
+.home p{
+    font-size: large;
+}
+.d-flexx{
+    border: solid 1px #222;
+    background-color: #222;
+     margin-right: 435px;
+    padding: 7px 30px ;
+    
+}
+.d-flex{
+    border-radius: 5px;
+    border: solid 1px #222;
+    background-color: #222;
+    color: #fff;
+    padding: 5px 20px ;
+}
+.img-home{
+    width: 40%;
+    margin-top: -70px;
+}
+.numbers{
+    margin-top: 45px;
+    color: #5b5757;
+}
+@media (max-width: 1068px) {
+    .home {
+        margin: 50px 20px; 
+    }
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .home p {
+        font-size: medium;
+    }
+
+    .d-flexx {
+        margin-right: 0;
+        padding: 10px;
+        width: 100%; 
+    }
+
+    .img-home {
+        width: 100%;
+        margin-top: 0; 
+    }
+
+    .numbers {
+        margin-top: 30px;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home p {
+        font-size: small;
+    }
+
+    .numbers h3 {
+        font-size: 24px;
+    }
+
+    .numbers p {
+        font-size: smaller;
+    }
+}
+/*########################################################################################*/
+.services{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px; 
+}
+.service{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.hrr {
+    margin: 20px 0;
+    width: 10%;
+   margin-right: 20px;
+   height: 3px; 
+   background-color: black; 
+   color: black;
+
+}
+.card {
+    
+   border: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+   
+
+}
+.icon {
+    font-size: 30px;
+    margin-right: 15px;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.card-item {
+    flex: 1 1 calc(33% - 20px); 
+    margin: 0 10px; 
+    min-width: 250px; 
+}
+/*########################################################################################*/
+.containerr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;  
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container{
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 20px;
+}
+.box{
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+}
+.java{
+    display: flex;
+    flex-direction: row;
+}
+.java span{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+.javaa span{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+.plus-button{
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.hidden{
+    display: none;
+}
+.hr{
+    display: flex;
+    height: 1px;
+    width: auto; 
+    background-color: black; 
+    color: black;
+
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    .box {
+        font-size: 0.9em;
+    }
+}
+/*########################################################################################*/
+.containerrr {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.section {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.hrrr {
+    height: 60px;
+    width: 2px; 
+    background-color: black; 
+    border: none; 
+    margin: 0 10px; 
+}
+.boxs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.content h4 {
+    margin: 0;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    .box {
+        flex: 1 1 100%;
+    }
+}
+/*########################################################################################*/
+/*########################################################################################*/
+.containerrrr {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    max-width: 600px; 
+    margin: auto;  
+}
+.containerrrr h1{
+    font-size: 35px;
+}
+.form-group {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.form-control {
+    flex: 1; 
+    height: 60px;
+    padding-right: 10px;
+    border-radius: 5px 0 0 5px; 
+}
+.btn-custom {
+    height: 60px;
+    border: none;
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer; 
+}
+
+/*########################################################################################*/
+footer {
+    background-color: #333; 
+    color: white; 
+    padding: 30px;
+    padding-top: 80px;
+    margin-top: -70px;
+}
+
+footer h4 {
+    margin-top: 0; 
+    
+}
+footer p {
+    margin: 5px 0; 
+    padding-top: 5px;
+}
